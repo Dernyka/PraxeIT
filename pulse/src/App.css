@@ -1,0 +1,40 @@
+body, html, #root, .app-container {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 15vw;
+  background-color: #272727;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  height: 12vh;
+  background-color: rgb(29, 29, 29);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1vh;
+  margin: 0;
+}
+
+.content {
+  flex: 1;
+  background-color: rgb(29, 29, 29);
+  padding: 1vw;
+}

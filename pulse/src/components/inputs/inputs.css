@@ -1,0 +1,19 @@
+.inputs {
+    background-color: rgb(49, 49, 49);
+    width: 83vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5vw;
+  }
+  
+  img {
+    width: 30vw;
+    height: 70vh;
+    opacity: 0.2;
+  }
+
+  
+  
+  
